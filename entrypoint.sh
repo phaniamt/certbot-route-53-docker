@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ -z $EMAIL || -z $DOMAIN  || -z $AWS_ACCESS_KEY_ID || -z $AWS_SECRET_ACCESS_KEY ]]; then
-        echo "EMAIL, DOMAIN, AWS_ACCESS_KEY_ID and $AWS_SECRET_ACCESS_KEY env vars required"
+        echo "EMAIL, DOMAIN, AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY env vars required"
         env
         exit 1
 fi
